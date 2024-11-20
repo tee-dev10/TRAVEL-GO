@@ -359,7 +359,6 @@ font-size: 20px;
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
-    margin-top: 8px;
     display: block;
     margin: 70px auto;
  }
@@ -560,9 +559,20 @@ footer{
    border: 1px solid red;
    margin: 0 auto;
    padding: 50px;
+   position: relative;
+}
+.send-icon{
+   position: absolute;
+   top: 2%;
+   right: 16%;
+}
+.star-icon{
+   position: absolute;
+   right: 12%;
+   top: 32%;
 }
 .subscribe-section-wrapper{
-   width: 60%;
+   width: 70%;
    margin: 0 auto;
    background-color: rgba(159, 255, 236, 0.2);
    padding: 70px;
@@ -579,16 +589,28 @@ footer{
 
    }
 }.cta-wrapper{
-   width: 55%;
+   width: 70%;
    display: flex;
    margin: 50px auto 10px;
    justify-content: space-between;
+
+   button{
+      color: #ffffff;
+      background-color: #00A651;
+      font-size: 17px;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+      padding: 20px 50px;
+      border-radius: 10px;
+      border-color: #00A651;
+   
+   }
    
 }
 
 .cta{
-   width: 60%;
-   border: 1px solid #ffffff;
+   width: 68%;
+   border:1px solid #ffffff;
    display: flex;
    padding: 20px 10px;
    background-color: #ffffff;
@@ -605,31 +627,53 @@ footer{
    
    
 }
-button{
-   width: 35%;
-   color: #ffffff;
-   background-color: #00A651;
-   font-size: 17px;
-   font-family: "Open Sans", sans-serif;
-   padding: 20px 10px;
-   border-radius: 10px;
-   border-color: #00A651;
 
-}
 .footer-wrapper{
    font-family: "Open Sans", sans-serif;
    padding: 150px 50px;
    display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+   border: 1px solid red;
 
-   h6{
-      font-size: 17px;
-      font-weight: 700;
-   }
 
+  
    p{ 
      color: #5E6282;
      font-style: 18px;
      font-weight: 400;
+     padding-bottom: 25px;
    
    }
+}
+.contact h6{
+   margin-bottom: 45px;
+   font-size: 22px;
+   font-weight: 700;
+}
+.col-1{
+   img{
+      margin-left: 45px;
+      margin-bottom: 30px;
+      width: 35%;
+    }
+
+    p{
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+} 
+.footer-icons{
+   display: flex;
+   justify-content: space-between;
+   
+   img{
+     margin-bottom: 15px;
+   }
+   
+}
+.col-5 p{
+   font-size: 20px;
+   font-weight: 400;
 }
