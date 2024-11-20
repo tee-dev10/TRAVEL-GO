@@ -556,7 +556,6 @@ font-size: 20px;
 footer{
    width: 80%;
    background-color: #FFFFFF;
-   border: 1px solid red;
    margin: 0 auto;
    padding: 50px;
    position: relative;
@@ -633,8 +632,7 @@ footer{
    padding: 150px 50px;
    display: flex;
    justify-content: space-between;
-   /* align-items: center; */
-   border: 1px solid red;
+ 
 
 
   
