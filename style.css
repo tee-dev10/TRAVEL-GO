@@ -390,6 +390,7 @@ font-size: 20px;
     align-items: end;
     padding-right: 70px;
     background-color: #ffffff;
+  
  }
  .next-trip-navigation{
     width: 50%;
@@ -397,6 +398,7 @@ font-size: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    
  }
  
  .destination{
@@ -484,7 +486,7 @@ font-size: 20px;
       position: absolute;
       top: 56%;
       left: 45%;
-      width: 70%;
+      width: 30%;
    }
    .about-us-wrap{
       background-color: #ECF1F0;
@@ -518,8 +520,6 @@ font-size: 20px;
       line-height: 30px;
       top: 65%;
       left: 30%;
-   
-      
 
    }
    .joe-stanley{
@@ -587,7 +587,8 @@ footer{
    font-family: "Open Sans", sans-serif;
 
    }
-}.cta-wrapper{
+}
+.cta-wrapper{
    width: 70%;
    display: flex;
    margin: 50px auto 10px;
@@ -674,4 +675,353 @@ footer{
 .col-5 p{
    font-size: 20px;
    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px){
+   .header{
+      width: 10%;
+      padding: 20px 0;
+      align-items: center;
+      }
+   .logo{
+      padding: 20px 0;
+      
+      }
+   .hero{
+      width: 100%;
+   }
+   .nav{
+      display: none;
+   }
+   .profile{
+      display: none;
+   }
+   .hero-content{
+      width: 100%;
+      margin: 40px auto;
+     
+  
+      h1{
+        font-size: 32px;
+        color: #ffffff;
+        font-family: "Open Sans", sans-serif;
+        font-weight: weight;
+        line-height:  40px;
+      }
+  
+      p{
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: weight;
+         
+      }
+  }
+  .hero-cta button{
+   margin: 80px auto 0;
+   padding: 10px 15px;
+   font-size: 15px;
+   
+   }
+
+   .service-card-wrap{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+  }
+  .motto-wrap{
+   width: 90%;
+   margin: 0 auto;
+   padding: 20px 5px;
+
+   >h4{
+      font-size: 26px;
+   }
+   >p{
+      font-size: 16px;
+   }
+     
+}
+  .motto-wrap-history{
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   
+       
+}
+.history{
+   width: 100%;
+
+}
+.destination-wrap{
+   width: 100%;
+   flex-direction: column;
+    gap: 50px;
+    padding: 5px;
+
+
+    >img{
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+}
+.popular-card-wrap{
+   width: 100%;
+   flex-direction: column;
+    gap: 50px;
+    padding-right: 5%;
+    padding-top: 20px;
+
+    >img{
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+}
+.destination-card-wrap{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   margin-top: 10px;
+   
+}
+.destination-card{
+  
+   padding: 15px;
+   gap: 30px;
+
+   p{
+      font-size: 13px;
+   }
+   
+}
+.destination-img{
+   width: 30%;
+}
+.destination-card{
+   width: 100%;
+  
+  }
+  .package-wrap{
+   width: 100%;
+   padding: 25px 20px;
+     /* height: fit-content; */
+        
+    }
+    .tabs{
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 10px;
+      margin: 30px 0 150px;
+      
+  }
+   .place-card-wrap{
+      width: 100%;
+      flex-direction: column;
+      gap: 30px;
+  
+   }
+   .place-card{
+      width: 100%;
+      
+   }
+   .package-wrap button{
+      margin: 20px auto;
+   }
+   .next-trip-wrap{
+      width: 100%;
+      margin: 20px auto;
+         
+      h2{
+        margin-top: 30px;
+        font-size: 30px;
+           
+      }
+      > p{
+           margin-top: 15px;
+       }
+  }
+  .next-trip-container{
+   width: 90%;
+   display: flex;
+   margin: 20px auto;
+   flex-direction: column;
+   padding: 10px 20px;
+  
+}
+.next-trip-navigation{
+   width: 100%;
+   height: 350px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+}
+.destination{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+ 
+   img{
+      width: 72px;
+    }
+    h6{
+      font-size: 20px;
+     
+    }
+    p{
+      font-size: 18px;
+      font-weight: 400;
+    }
+ }
+ .next-trip-banner{
+   width: 100%;
+   margin: 140px auto 30px;
+   padding: 15px;
+   line-height: 22px;
+ }
+ .people-building{
+   width: 53%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+ .position{
+   display: none;
+   }
+   .about-us-wrap{
+      width: 100%;
+      margin: 20px auto;
+      padding: 20px 10px 140px;
+      
+      h2{
+         font-size: 40px;
+      }
+   }
+   .image-wrapper img{
+      display: block;
+      margin: 20px auto;
+      width: 100%;
+          
+   }
+  
+   .stanlee-images{
+      display: none;
+
+   }
+   .joe-stanley-comment{
+      position: absolute;
+      width: 80%;
+      padding: 30px 30px 20px;
+      margin: 0 auto;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px;
+      top: 52%;
+      left: 10%;
+
+   }
+   footer{
+      width: 100%;
+      padding: 20px;
+   }
+   .subscribe-section-wrapper{
+      width: 100%;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 39px 20px 20px 20px;
+      h4{
+         font-size: 22px;
+         line-height: 30px;
+      }
+        
+   }
+   .cta-wrapper{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-between;
+
+   
+      button{
+         font-size: 17px;
+         font-weight: 600;
+         font-family: "Open Sans", sans-serif;
+         padding: 10px 30px;
+         width: 40%;
+         display: block;
+         margin: 20px auto;
+              
+      }
+      
+   }
+   .cta{
+      width: 80%;
+      border:1px solid #ffffff;
+      display: flex;
+      padding: 20px 10px;
+      margin: 0 auto;
+      align-items: center;
+      border-radius: 10px;
+   
+      p{
+         font-size: 16px;
+         font-weight: 500;
+         color: #39425D;
+         font-family: "Montserrat", sans-serif;
+      }
+         
+   }
+
+.send-icon{
+  display: none;
+}
+.star-icon{
+  display: none;
+}
+.footer-wrapper{
+   font-family: "Open Sans", sans-serif;
+   padding: 50px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   p{ 
+     color: #5E6282;
+     font-style: 18px;
+     font-weight: 400;
+     padding-bottom: 5px;
+   
+   }
+}
+.col-1{
+
+   img{
+      margin-left: 25px;
+      margin-bottom: 10px;
+      width: 25%;
+    }
+
+    p{
+      font-size: 13px;
+      font-weight: 600;
+    }
+   }
+
+.col-5{
+   display: none;
+}
+.contact h6{
+   margin: 10px 0;
+   font-size: 22px;
+   font-weight: 700;
+}
+
 }
